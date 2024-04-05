@@ -1,0 +1,60 @@
+.card {
+    width: 360px; /* 300px (image width) + 30px padding on each side */
+    background-color: #ffffff;
+    border: 1px solid rgb(207, 203, 203);
+    box-shadow: 8px 8px 1.5px rgba(223, 220, 220, 0.5);
+    overflow: hidden;
+    margin: 20px auto;
+   
+}
+
+.card-header {
+    padding: 10px 20px;
+    
+}
+
+.animal-name {
+    margin: 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+.card-image {
+    padding: 0 20px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-info {
+    padding: 10px;
+    border: 1px solid rgb(207, 203, 203);
+    overflow: hidden;
+    margin: 20px 20px 20px 20px ;
+    
+}
+
+.animal-fact {
+    font-style: italic;
+    font-size: 16px;
+    color: black;
+}
+
+.animal-details {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.animal-details li {
+    font-size: 15px;
+    color: black;
+}
+
+.animal-description {
+    font-size: 15px;
+    color: black;
+}
